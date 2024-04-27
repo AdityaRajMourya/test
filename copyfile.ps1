@@ -11,3 +11,5 @@ $destinationFilePath = Join-Path -Path $destinationFolder -ChildPath (Split-Path
 Copy-Item -Path $sourceFilePath -Destination $destinationFilePath -Force
 
 Write-Output "File copied to desktop: $destinationFilePath"
+
+#test done
